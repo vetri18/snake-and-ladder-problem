@@ -1,16 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
-namespace Snakeandladder
+namespace SnakeAndLadderGame
 {
-    class gameone
+    class program
     {
-        static void Main(string[] args)
+        public static void Main()
 
         {
-           
-            Console.WriteLine("your start position is zero");
+            RandomNumber.Roll_The_Die();
 
-        }     
+         }     
      }
 }
