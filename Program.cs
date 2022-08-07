@@ -3,13 +3,12 @@
 
 namespace SnakeAndLadderGame
 {
-    class program
+    class Program
     {
-        public static void Main()
-
+        public static void Main(string[] args)
         {
-            RandomNumber.Roll_The_Die();
-
-         }     
-     }
+            DiceCheck.CheckOption();
+        }
+    }
 }
+
